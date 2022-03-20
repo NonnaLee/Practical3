@@ -3,6 +3,10 @@
 
 using namespace std;
 
-    char Computer::makeMove(){
+Computer::Computer()
+{
+}
+
+char Computer::makeMove(){
         return 'R';
     };

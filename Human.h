@@ -7,7 +7,7 @@
 
 class Human/* :public Player */{
 public:
-    char move;
+    //char move;
     
     Human();
     //void getInput();
