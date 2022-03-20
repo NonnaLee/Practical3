@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	Human humanPlayer = Human();
-	cout << humanPlayer.getMove();
+	cout << humanPlayer.makeMove();
 	return 0;
 
 }

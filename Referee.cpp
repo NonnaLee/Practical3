@@ -7,8 +7,8 @@ using namespace std;
         
         
 
-        char player1Move = player1.getMove();
-        char player2Move = player2.getMove();
+        char player1Move = player1.makeMove();
+        char player2Move = player2.makeMove();
 
         if(player1Move == player2Move){
             tieMove = true;
