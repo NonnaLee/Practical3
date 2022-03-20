@@ -3,7 +3,7 @@
 
 using namespace std;
 
-    char Referee::refGame(Player& player1, Player& player2){ 
+    char Referee::refGame(Human player1, Computer player2){
         
         
 
@@ -30,7 +30,7 @@ using namespace std;
         return result;
 };
 
-
+    /*
     void Referee::outputResults(){
         //cout << "Results for human player are: ";
 
@@ -38,3 +38,9 @@ using namespace std;
             cout << player2Results[i] << " ";
         }
     };
+    */
+
+    Referee::Referee()
+    {
+    }
+
