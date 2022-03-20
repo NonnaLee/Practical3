@@ -5,7 +5,9 @@ using namespace std;
 
     char Referee::refGame(Human player1, Computer player2){
         
-        
+        bool tieMove;
+        char result;
+        bool player1Win;
 
         char player1Move = player1.makeMove();
         char player2Move = player2.makeMove();
