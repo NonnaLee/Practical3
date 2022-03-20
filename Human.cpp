@@ -3,7 +3,11 @@
 
 using namespace std;
 
-    char Human::makeMove(){
+Human::Human()
+{
+}
+
+char Human::makeMove(){
         cout << "Enter move: ";
         char humanMove;
         cin >> humanMove;

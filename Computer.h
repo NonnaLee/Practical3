@@ -1,15 +1,15 @@
 #include <iostream>
-#include "Player.h"
+// #include "Player.h"
 
 
-#ifndef COMPUTERPLAYER_H
-#define COMPUTERPLAYER_H
+#ifndef COMPUTER_H
+#define COMPUTER_H
 
-class ComputerPlayer:public Player{
+class Computer/* :public Player */{
 public:
     // char move = 'R';
 
-    ComputerPlayer(){};
+    Computer();
     //ComputerPlayer(char move){};
 
     char makeMove();

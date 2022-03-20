@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "Player.h"
 
@@ -15,3 +16,4 @@ using namespace std;
     // void Player::setMove(char move){
         // this->move = move;
     // };
+    */

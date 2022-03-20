@@ -1,16 +1,16 @@
 #include <iostream>
-#include "Player.h"
+// #include "Player.h"
 
 #ifndef HUMANPLAYER_H
 #define HUMANPLAYER_H
 
 
-class Human:public Player{
+class Human/* :public Player */{
 public:
     char move;
     
-    Human(){};
-    void getInput();
+    Human();
+    //void getInput();
 
     char makeMove();
 
