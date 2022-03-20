@@ -1,7 +1,6 @@
 #include <iostream>
 #include "Computer.h"
 #include "Human.h"
-#include "Player.h"
 
 using namespace std;
 
