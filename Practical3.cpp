@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include "Referee.h"
 #include "Human.h"
@@ -12,4 +12,4 @@ int main()
 	return 0;
 
 }
-
+*/
