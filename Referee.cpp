@@ -5,24 +5,24 @@ using namespace std;
 
     char Referee::refGame(Human player1, Computer player2){
         
-        bool tieMove;
+        //bool tieMove;
         char result;
-        bool player1Win;
+        //bool player1Win;
 
         char player1Move = player1.makeMove();
         char player2Move = player2.makeMove();
 
         if(player1Move == player2Move){
-            tieMove = true;
+            //tieMove = true;
             result = 'T';
         }
         else if((player1Move == 'R' && player2Move == 'S') || 
            (player1Move == 'S' && player2Move == 'P') || 
            (player1Move == 'P' && player2Move == 'R')){
-           player1Win = true;
+           //player1Win = true;
            result = 'W';
         }else{
-           player1Win = false;
+           //player1Win = false;
            result = 'L';
         }
         
