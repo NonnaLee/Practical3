@@ -11,7 +11,7 @@ public:
     Player();
     Player(char name);
 
-    virtual char getMove();
+    virtual char makeMove();
     // void setMove(char move);
 
 };

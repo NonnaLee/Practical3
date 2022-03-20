@@ -5,14 +5,14 @@
 #define HUMANPLAYER_H
 
 
-class HumanPlayer:public Player{
+class Human:public Player{
 public:
     char move;
     
-    HumanPlayer(){};
+    Human(){};
     void getInput();
 
-    char getMove();
+    char makeMove();
 
 };
 

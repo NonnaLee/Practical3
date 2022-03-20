@@ -3,6 +3,6 @@
 
 using namespace std;
 
-    char ComputerPlayer::getMove(){
+    char ComputerPlayer::makeMove(){
         return 'R';
     };

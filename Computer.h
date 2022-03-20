@@ -12,7 +12,7 @@ public:
     ComputerPlayer(){};
     //ComputerPlayer(char move){};
 
-    char getMove();
+    char makeMove();
 
 };
 

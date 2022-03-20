@@ -9,7 +9,7 @@ using namespace std;
     Player::Player(char playerName){
     };
 
-    char Player::getMove(){
+    char Player::makeMove(){
         return move;
     };
     // void Player::setMove(char move){
