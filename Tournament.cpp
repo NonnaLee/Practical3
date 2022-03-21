@@ -1,14 +1,16 @@
 #include "Tournament.h"
 #include <iostream>
+#include <array>
 #include "Referee.h"
 
 using namespace std;
+
 Player* Tournament::run(array<Player*, 8> competitors)
 //Player* Tournament::run(Player* competitors[8])
 {
     Referee referee1 = Referee();
     int remainingCompetitors = 8;
-    Player* competitorsNext[8];
+    array<Player*, 8> competitorsNext;
     while (remainingCompetitors>1){
         int competitorsNextCount = 0;
         cout << "  ------- ROUND -----" << endl;
