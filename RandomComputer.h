@@ -4,7 +4,7 @@
 
 
 class RandomComputer :public Player
-{
+{public:
 	RandomComputer();
 	char makeMove();
 };
