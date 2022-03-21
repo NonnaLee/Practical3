@@ -21,7 +21,7 @@ public:
 
     //Player getMove();
     Referee();
-    char refGame(Human player1, Computer player2);
+    char refGame(Player player1, Player player2);
     //void setMove(char Move);
     //void outputResults();
     
