@@ -1,7 +1,9 @@
 #include <iostream>
 #include "PaperDoll.h"
 
-PaperDoll::PaperDoll() {};
+PaperDoll::PaperDoll() {
+	name = "PaperDoll";
+};
 char PaperDoll::makeMove() {
 	char paperDollMoves[3] = { 'P','S','S' };
 	int moveIndex = 0;

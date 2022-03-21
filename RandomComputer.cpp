@@ -3,6 +3,7 @@
 
 RandomComputer::RandomComputer()
 {
+    name = "RandomComputer";
 }
 
 char RandomComputer::makeMove() {

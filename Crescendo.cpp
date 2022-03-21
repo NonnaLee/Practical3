@@ -3,7 +3,9 @@
 
 using namespace std;
 
-Crescendo::Crescendo() {};
+Crescendo::Crescendo() {
+	name = "Crescendo";
+};
 char Crescendo::makeMove() {
 	char crescendoMoves[3] = { 'P','S','R' };
 	int moveIndex = 0;

@@ -4,6 +4,7 @@
 using namespace std;
 Player::Player()
 {
+    name = "Player";
 }
 
 char Player::makeMove() {

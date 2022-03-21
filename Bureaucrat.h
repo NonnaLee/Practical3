@@ -9,7 +9,7 @@ class Bureaucrat :public Player
 public:
 
     Bureaucrat();
-    char makeMove();
+    char makeMove() override;
 
 };
 

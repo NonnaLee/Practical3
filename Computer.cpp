@@ -5,6 +5,7 @@ using namespace std;
 
 Computer::Computer()
 {
+    name = "Computer";
 }
 
 char Computer::makeMove(){

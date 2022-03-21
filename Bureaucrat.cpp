@@ -4,6 +4,7 @@ using namespace std;
 
 Bureaucrat::Bureaucrat()
 {
+    name = "Bureaucrat";
 }
 
 char Bureaucrat::makeMove() {

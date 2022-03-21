@@ -3,7 +3,9 @@
 
 using namespace std;
 
-FistfullODollars::FistfullODollars() {};
+FistfullODollars::FistfullODollars() {
+	name = "FistfullODollars";
+};
 char FistfullODollars::makeMove() {
 	char fistFullODollarsMoves[3] = { 'R','P','P' };
 	int moveIndex = 0;

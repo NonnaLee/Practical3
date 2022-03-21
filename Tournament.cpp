@@ -24,12 +24,12 @@ Player* Tournament::run(array<Player*, 8> competitors)
             Player* p2 = competitors[p2_i];
 
             // Referee The Game
-            cout << p1_i << " vs " << p2_i << " = ";
+            cout << p1->name << " vs " << p2->name << " = ";
             int p1Wins = 0;
             int p2Wins = 0;
             for (int i = 0; i < 5; i++) {
                 
-                char result = referee1.refGame(*p1, *p2);
+                char result = referee1.refGame(p1, p2);
                 cout << result<<"-";
                 if (result == 'W') {
                     p1Wins++;

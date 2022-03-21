@@ -3,13 +3,13 @@
 
 using namespace std;
 
-    char Referee::refGame(Player player1, Player player2){
+    char Referee::refGame(Player* player1, Player* player2){
         
         char result;
      
-        char player1Move = player1.makeMove();
-        char player2Move = player2.makeMove();
-
+        char player1Move = player1->makeMove();
+        char player2Move = player2->makeMove();
+        cout << "(" << player1Move << "|" << player2Move<<")";
         if(player1Move == player2Move){
     
             result = 'T';

@@ -3,7 +3,9 @@
 
 using namespace std;
 
-Toolbox::Toolbox(){};
+Toolbox::Toolbox(){
+	name = "Toolbox";
+};
 char Toolbox::makeMove() {
     return 'S';
 };
