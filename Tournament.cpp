@@ -3,8 +3,8 @@
 #include "Referee.h"
 
 using namespace std;
-//Player* Tournament::run(array<Player*, 8> competitors)
-Player* Tournament::run(Player* competitors[8])
+Player* Tournament::run(array<Player*, 8> competitors)
+//Player* Tournament::run(Player* competitors[8])
 {
     Referee referee1 = Referee();
     int remainingCompetitors = 8;
